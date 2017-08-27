@@ -1,21 +1,20 @@
 ; @com.wudsn.ide.asm.hardware=APPLE2
 ;
-; F15 D'GAMMA CLONE
+; F15 D'GAMMA CLONE CLONE for the A2FF2017
 ;
 
-; Code and graphics by TMR
+; Code by TMR graphics by cybernesto
 
 
-; A quick, written-from-scratch copy of the Apple II intros F-15
-; Strike Eagle by Black Bag and The Six Pack's Lantern Of D'Gamma.
-; Coded for C64CrapDebunk.Wordpress.com
+; A quick copy of the F15 D'GAMMA CLONE demo.
+; Coded for the Apple II Festival France 2017
 
 ; Notes: this source is formatted for the ACME cross assembler from
 ; http://sourceforge.net/projects/acme-crossass/
 
-; build.bat will call ACME to create an assembled file but something
-; like CiderPress is needed to inject the file into a bootable disk
-; image.
+; build.bat will call ACME to create an assembled file but a WUDSN
+; eclipse project automates the creation of a disk image and
+; starts the JACE emulator.
 
 
 ; Memory Map
@@ -25,7 +24,7 @@
 
 
 ; Select an output filename
-		!to "fdclone#060a00",plain
+		!to "a2ff2017#060a00",plain
 
 
 ; Yank in binary data
