@@ -30,7 +30,7 @@
 
 ; Yank in binary data
 		* = $2000
-char_data	!binary "binary/c64cd_screen.raw"
+char_data	!binary "binary/a2ff2017_screen.bin"
 
 
 ; Constants
@@ -707,29 +707,15 @@ logo_x_pos	!byte $00,$fe,$08,$fe,$10,$fe,$18,$fe
 		!byte $ff		; end of data marker
 
 		!scr "0123456789012345678901234567890123456789"
-scroll_text	!scr " welcome to   -=- f15 d'gamma clone -=- "
-		!scr "                                        "
-		!scr "      coding and graphics by t.m.r      "
-		!scr " released by c64cd on the 19th may 2016 "
+scroll_text	
+        !scr "    -=- Apple II Festival France -=-    "
+		!scr "            August 6th 2017             "
+		!scr "      coding by t.m.r                   "
+		!scr "         graphics by cybernesto         "
 
-		!scr " based on the apple ii crack intros for "
-		!scr "   f-15 strike eagle by black bag and   "
-		!scr "  lantern of d'gamma from the six pack  "
-		!scr " (with a few extra c64 influences too!) "
-
-		!scr "                                        "
-		!scr "                                        "
-		!scr "                                        "
-		!scr "                                        "
-
-		!scr "this code uses $c019 to synchronise with"
-		!scr " the vertical blank - that may not work "
-		!scr "on all models of apple ii, but if anyone"
-		!scr "tests on real hardware i'd like to know!"
-
-		!scr " email me at tmr.c64cd@gmail.com to say "
-		!scr "   if the code ran, which model of a2   "
-		!scr "  and which cards are present, please!  "
+		!scr " based on the f15 d'gamma clone by C64CD"
+		!scr "  original artwork by Rocco             "
+		!scr "destroyed without dexterity using GIMP  "
 		!scr "                                        "
 
 		!scr "                                        "
@@ -737,19 +723,14 @@ scroll_text	!scr " welcome to   -=- f15 d'gamma clone -=- "
 		!scr "                                        "
 		!scr "                                        "
 
-		!scr "c64cd alphabetically sorted greetings to"
-		!scr "                                        "
-		!scr "  1001 crew   ash and dave   black bag  "
-		!scr "         borderzone dezign team         "
+		!scr "Best greetings go to Antoine, Benoit,   "
+		!scr "Didier, Eric, Francois, Francois, Franck"
+		!scr "Guillaume, Karim, Mario, Olivier,       "
+		!scr "Philippe, Philippe, Pierre, Yannick     "
 
-		!scr "    four horsemen  of the apocalypse    "
-		!scr "happy demomaker  harlow cracking service"
-		!scr "  mean team     paul, shandor and matt  "
-		!scr "pulse productions  reset 86  rob hubbard"
-
-		!scr "   scoop     stoat and tim    tangent   "
-		!scr " thalamus     the commandos     the gps "
-		!scr "  the six pack   we music   xess   yak  "
+		!scr "and of course Big Thanks to Stephane and"
+		!scr "the Silicium crew for making this event "
+		!scr "possible.                               "
 		!scr "                                        "
 
 		!scr "                                        "
@@ -757,10 +738,30 @@ scroll_text	!scr " welcome to   -=- f15 d'gamma clone -=- "
 		!scr "                                        "
 		!scr "                                        "
 
-		!scr "and we'll finish on a quick website plug"
+		!scr "Big thanks also to the Team at Maska    "
+		!scr "Alex, Luc, Hugue, Stella                "
+		!scr "for the awesome meals and excellent     "
+		!scr "service.                                "
+
+		!scr "We would also like to show our big      "
+		!scr "support to the French Touch...          "
+		!scr "Thanks for all the awesome demos        "
+		!scr "We will really really miss you!         "
+
 		!scr "                                        "
-		!scr "   visit  c64crapdebunk.wordpress.com   "
-		!scr "        because.... well, stuff!        "
+		!scr "                                        "
+		!scr "                                        "
+		!scr "                                        "
+
+		!scr "                                        "
+		!scr "                                        "
+		!scr "                                        "
+		!scr "                                        "
+
+		!scr "                                        "
+		!scr "                                        "
+		!scr " visit  http://apple2festivalfrance.fr  "
+		!scr "                                        "
 
 		!scr "                                        "
 		!scr "                                        "
